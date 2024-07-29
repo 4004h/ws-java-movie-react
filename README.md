@@ -14,6 +14,51 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## st-2 로딩
 
+## 자료형
+
+CSV JSON XML 파일형 = 과거형 : 오픈 API = 실시간
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## JSON
+
+{
+  "이름":"이방원",
+  "나이" : 22,
+  "직업" : "학생",
+  "가족수":10,
+  "가족구성" : {
+    "아버지": {
+      "이름":"이성계",
+      "직업":"군인",
+      "나이":"50"
+    },
+    "어머니" : [
+      {
+        "이름":"민씨",
+        "나이":45,
+        "직업":"주부",
+      },{
+        "이름":"강씨",
+        "나이":35,
+        "직업":"서모",
+      }
+    ]
+  }
+}
+
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
