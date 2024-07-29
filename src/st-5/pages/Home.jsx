@@ -1,4 +1,4 @@
-//로딩페이지
+//목록페이지
 // 2.JSON파일일거오기
 //npm install axios
 // 목록주소
@@ -7,11 +7,11 @@
 // 상세보기주소
 // https://yts.mx/api/v2/movie_details.json?movie_id=11
 // https://yts-proxy.now.sh/movie_detail.json?movie_id=11
-import './App.css';
+import './Home.css';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
-function App() {
+export default function Home() {
   const [isLoading, setIsLoading] = useState(true)
   const [LoadCounter, setLoadCounter] = useState(0)
   const [movies, setMovies] = useState([])
@@ -55,11 +55,8 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className="Home">
       {isLoading ? ` Loading... ${LoadCounter}` : displayMovies()}
-
     </div>
   );
 }
-
-export default App;
