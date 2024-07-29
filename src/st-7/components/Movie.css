@@ -1,3 +1,5 @@
+/* a{text-decoration: none; */
+
 .movie, .movies
 {
   background-color: white;
@@ -46,3 +48,7 @@
   margin: 0px 5px;
 }
 
+.movie>a{
+  text-decoration: none;
+  color: inherit;
+}

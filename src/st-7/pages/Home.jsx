@@ -25,9 +25,10 @@ export default function Home() {
     setIsLoading(false)
   }
 
+
   useEffect(
     ()=>{
-      console.log("useEffect 실행")
+      console.log("useEffect 실행")//로딩카운터  
 
       fetchMovies()
 
