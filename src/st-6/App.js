@@ -12,9 +12,9 @@ function App() {
     <BrowserRouter>
       <Navigation/>
       <Routes>
-        <Route path="/" element={<Home/>}/>
-        <Route path = '/about' element={<About/>}/>
-        <Route path = '/detail' element={<Detail/>}/>
+        <Route path = "/ws-java-movie-react/" element={<Home/>}/>
+        <Route path = '/ws-java-movie-react/about' element={<About/>}/>
+        <Route path = '/ws-java-movie-react/detail' element={<Detail/>}/>
       </Routes>
     </BrowserRouter>
   );
