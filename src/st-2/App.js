@@ -9,7 +9,7 @@ function App() {
 
   useEffect(
     ()=>{
-      console.log("123")// 타이머가 끝나도 실행됨
+      console.log("123")// 타이머가 끝나도 실행됨 해결함
       const loadTimer = setInterval(() => { // function IncreaseCounter()
         let count = LoadCounter+1
         if(count > 10)
@@ -17,7 +17,8 @@ function App() {
           setIsLoading(false)
           clearInterval(loadTimer) 
         }
-        setLoadCounter(count)
+        else
+          setLoadCounter(count)
       }, 1000);
 
       //clearInterval 없으면 숫자가 이상하게 나옴
