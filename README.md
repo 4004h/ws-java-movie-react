@@ -4,12 +4,16 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## .env
 
-In the project directory, you can run:
+빌드명 자동설정
 
-### .env
-#### 빌드명 자동설정
+## 컴포너트
+
+홈 어바웃 메뉴 페이지
+
+## st-2 로딩
+
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
