@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/ws-java-movie-react/static/css/main.f855e6bc.css",
-    "main.js": "/ws-java-movie-react/static/js/main.29d625b9.js",
-    "static/js/453.a120608d.chunk.js": "/ws-java-movie-react/static/js/453.a120608d.chunk.js",
-    "static/media/logo.svg": "/ws-java-movie-react/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/ws-java-movie-react/static/css/main.02486d10.css",
+    "main.js": "/ws-java-movie-react/static/js/main.b497e15c.js",
+    "static/js/453.2e787169.chunk.js": "/ws-java-movie-react/static/js/453.2e787169.chunk.js",
     "index.html": "/ws-java-movie-react/index.html",
-    "main.f855e6bc.css.map": "/ws-java-movie-react/static/css/main.f855e6bc.css.map",
-    "main.29d625b9.js.map": "/ws-java-movie-react/static/js/main.29d625b9.js.map",
-    "453.a120608d.chunk.js.map": "/ws-java-movie-react/static/js/453.a120608d.chunk.js.map"
+    "main.02486d10.css.map": "/ws-java-movie-react/static/css/main.02486d10.css.map",
+    "main.b497e15c.js.map": "/ws-java-movie-react/static/js/main.b497e15c.js.map",
+    "453.2e787169.chunk.js.map": "/ws-java-movie-react/static/js/453.2e787169.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.29d625b9.js"
+    "static/css/main.02486d10.css",
+    "static/js/main.b497e15c.js"
   ]
 }
