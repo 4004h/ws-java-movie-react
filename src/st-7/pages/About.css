@@ -1,0 +1,31 @@
+.about_page
+{
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 100px auto;
+  max-width: 400px;
+  box-shadow: 
+  0 13px 27px -5px rgba(50, 50, 93, .25),
+  0 8px 16px -8px rgba(50, 50, 93, .25),
+  0 -6px 16px -6px rgba(50, 50, 93, .25);
+}
+
+.about_page span:first-child{
+  font-size: 20px;
+}
+
+.about_page span:last-child{
+  display: block;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
