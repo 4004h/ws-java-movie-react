@@ -28,9 +28,25 @@ export default function Home() {
 
   useEffect(
     ()=>{
-      console.log("useEffect 실행")//로딩카운터  
 
       fetchMovies()
+
+      console.log("useEffect 실행")//로딩카운터  
+      if(isLoading)
+      {
+          const loadTimer = setInterval(() => { // function IncreaseCounter()
+          let count = LoadCounter+1
+          if(count > 10)
+          {
+            clearInterval(loadTimer) 
+          }
+          else
+            setLoadCounter(count)
+        }, 1000);
+  
+        //clearInterval 없으면 숫자가 이상하게 나옴
+        return ()=>{ clearInterval(loadTimer) }
+      }
 
     },[LoadCounter]
   )
